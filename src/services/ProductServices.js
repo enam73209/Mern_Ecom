@@ -27,6 +27,18 @@ const ProductListBySimilarService = async (req,res)=>{
 
 }
 
-const ProductListBySimilarService = async (req,res)=>{
+const ProductListByKeywordService = async (req,res)=>{
+
+}
+
+const ProductListByRemarkService = async (req,res)=>{
+
+}
+
+const ProductDetailsService = async (req,res)=>{
+
+}
+
+const ProductReviewListService = async (req,res)=>{
 
 }
