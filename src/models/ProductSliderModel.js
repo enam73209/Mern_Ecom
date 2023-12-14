@@ -4,7 +4,7 @@ const DataSchema = mongoose.Schema({
     des: {type: String, required: true},
     price: {type: String, required: true},
     image: {type: String, required: true},
-    productID: {type: mongoose.Schema.types.objectId, required: true}
+    productID: {type: mongoose.Schema.Types.ObjectId, required: true}
 },{ timestamp: true, versionKey:false});
 const ProductSliderModel = mongoose.model('productsliders',DataSchema);
 module.exports = ProductSliderModel;

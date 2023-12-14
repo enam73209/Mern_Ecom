@@ -11,7 +11,7 @@ const DataSchema = mongoose.Schema({
     des:{type:String, required: true},
     color:{type:String, required: true},
     size:{type:String, required: true},
-    productID:{type: mongoose.Schema.types.objectId, required: true}
+    productID:{type: mongoose.Schema.Types.ObjectId, required: true}
 },{timestamp:true, versionKey:false});
 const ProductDetailModel = mongoose.model('productdetails',DataSchema);
 module.exports = ProductDetailModel;

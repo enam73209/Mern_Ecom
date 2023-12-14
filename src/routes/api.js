@@ -7,7 +7,7 @@ router.get('/ProductCategoryList',ProductController.ProductCategoryList);
 router.get('/ProductSliderList',ProductController.ProductSliderList);
 router.get('/ProductListByBrand/:BrandID',ProductController.ProductListByBrand);
 router.get('/ProductListByCategory/:CategoryID',ProductController.ProductListByCategory);
-router.get('/ProductListByKeyword/:Keyword', ProductController.ProductListBySimilar);
+router.get('/ProductListBySimilar/:Keyword', ProductController.ProductListBySimilar);
 router.get('/ProductListByKeyword/:Keyword', ProductController.ProductListByKeyword);
 router.get('/ProductListByKeyword/:Remark', ProductController.ProductListByRemark);
 router.get('/ProductListByKeyword/:ProductID', ProductController.ProductDetails);

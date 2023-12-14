@@ -9,8 +9,8 @@ const DataSchema = mongoose.Schema({
     star:{type:String, required: true},
     stock:{type:Boolean, required: true},
     remark:{type:String,required: true},
-    categoryID:{type:mongoose.Schema.types.objectId, required:true},
-    brandID:{type:mongoose.Schema.types.objectId, required: true}
+    categoryID:{type:mongoose.Schema.Types.ObjectId, required:true},
+    brandID:{type:mongoose.Schema.Types.ObjectId, required: true}
 },{timestamp:true,versionKey:false});
 const ProductModel = mongoose.model('products',DataSchema);
 module.exports = ProductModel;
